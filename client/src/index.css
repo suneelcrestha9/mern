@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.disabled {
+    opacity: 0.5; /* You can adjust the styling to visually indicate the button is disabled */
+    cursor: not-allowed;
+    color: red;
+}
